@@ -2944,18 +2944,19 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@magic-sdk/provider@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-2.6.1.tgz#8f1ebbca5068a59bd3d38d2bbcc5ee461abd117d"
-  integrity sha512-ht4VMBLSYaNg5p4jYFlDg/Qfi5dYOBs/QaSMap6jOC6bh8U/dd895Gh1cSPsZ9RLBlXGzR8VhqNdm2dTB8zWWA==
+"@magic-sdk/provider@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-3.0.1.tgz#63a2331b44e1cbcabc7f2b9d82d7a002875c9c77"
+  integrity sha512-7/1SKmKJLWGO9T3oUtmxrfmfC6QW3xzjIQ7j1VTUwQb1vBdpwOIlrLPJqEKK1nUv+X8uiaSP4taYf/+0VQGGpA==
   dependencies:
-    "@magic-sdk/types" "^1.4.9"
+    "@magic-sdk/types" "^2.0.1"
     eventemitter3 "^4.0.4"
+    semver "^7.3.2"
 
-"@magic-sdk/types@^1.4.9":
-  version "1.4.9"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-1.4.9.tgz#b34dd1c0ebddf7144b7362be500e74860af00f9d"
-  integrity sha512-kP6SJwFjPBeFSd1BsVHrxUBud95NaI/UUfpgj5Gw3Ta57h1vpsV4insqE/yJMO0/zfQsxvDaZde6omOBd5a4uQ==
+"@magic-sdk/types@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-2.0.1.tgz#d94a40e33e65f253b845543c83e32fe65662af80"
+  integrity sha512-VB7h0i7et7fu5WViZZQz+b/CHUcTuLxC64Wbd+d1f6+dJyPFpUeWRkt5X9LP48pIVmZpz57NQB48/y7YKy91uw==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -13013,15 +13014,15 @@ macos-release@^2.2.0:
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.4.1.tgz#64033d0ec6a5e6375155a74b1a1eba8e509820ac"
   integrity sha512-H/QHeBIN1fIGJX517pvK8IEK53yQOW7YcEI55oYtgjDdoCQQz7eJS94qt5kNrscReEyuD/JcdFCm2XBEcGOITg==
 
-magic-sdk@^2.5.0:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-2.5.1.tgz#c043ef79d5661e79fb8b5a2ee3e1da55fbf3a250"
-  integrity sha512-jpRGTAUwDDzrZdoWHROpWPeXoeTGVet9HlG50jsBZMWkCcihGNaUvGN/mpZNHDPfQqR2AWvVmmE/PQ1iKKts+w==
+magic-sdk@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-3.0.1.tgz#457a6c37bc8a515a72270d0e45af2f5701cdc468"
+  integrity sha512-Zu00miw1i1nYQWjHnDvBoGExqx18jaE4FZNum3EtElCvc3dSt8vO0+9yEsZh1/wF6Dfkeb1mRJnBewKsgAJ2dQ==
   dependencies:
     "@babel/core" "^7.9.6"
     "@babel/runtime" "^7.9.6"
-    "@magic-sdk/provider" "^2.6.1"
-    "@magic-sdk/types" "^1.4.9"
+    "@magic-sdk/provider" "^3.0.1"
+    "@magic-sdk/types" "^2.0.1"
     localforage "^1.7.4"
     localforage-driver-memory "^1.0.5"
     regenerator-runtime "0.13.5"
