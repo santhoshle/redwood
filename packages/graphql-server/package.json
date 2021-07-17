@@ -14,7 +14,7 @@
     "@envelop/core": "0.3.1",
     "@envelop/depth-limit": "0.2.0",
     "@envelop/disable-introspection": "0.2.0",
-    "@envelop/filter-operation-type": "0.1.0",
+    "@envelop/filter-operation-type": "0.1.1",
     "@envelop/parser-cache": "0.2.0",
     "@envelop/validation-cache": "0.2.0",
     "@graphql-tools/merge": "6.2.14",
