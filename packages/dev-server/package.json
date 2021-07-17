@@ -27,7 +27,7 @@
     "@types/express": "4.17.12",
     "@types/morgan": "1.9.2",
     "@types/qs": "6.9.6",
-    "@types/require-dir": "1.0.1",
+    "@types/require-dir": "1.0.2",
     "@types/stack-trace": "0.0.29"
   },
   "scripts": {
